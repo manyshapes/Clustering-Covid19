@@ -25,3 +25,5 @@ The National Center for Biotechnology Information has created a public data hub 
 IV) Our Data at a Glance
 
 Within California, 9 sequences are recorded. Different locality's viral sequences will bare greater resemblance to the sequences of their origins. As such, South American viral DNA is more likely to have originated from Europe, while much of the United States' is more likely to come from Asia.
+
+
