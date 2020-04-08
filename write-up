@@ -1,0 +1,18 @@
+i What data have you gathered, and how did you gather it?
+The National Center for Biotechnology Informatioon (NCBI) houses online a genetic bank of DNA sequences. 
+NCBI's genBank accrues the gentic sequencing of SARS-CoV-2 as they are submitted.
+These records include sequences as well as geolocation and a protein transcription.
+To compare the likenesses of two genetic strains, NCBI also provides BLAST, or Basic Local Alignment Search Tool.
+Using BLAST provides data tables, each sequence having a percentage "aligned" with the reference strain, in this case the origin.    
+
+ii How have you explored the data and what insights have you gained as a result?
+
+
+iii Will you be able to answer your question with this data, or do you need to gather more data (or adjust your question)?
+
+
+iv What modeling approach are you using to answer your question?
+
+
+v extra steps needed
+Pandas will need to be used to combine the BLAST alignment data frame with the geolocation, which is in the sequencing data.
