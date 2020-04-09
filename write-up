@@ -1,25 +1,15 @@
-i What data have you gathered, and how did you gather it?
-The National Center for Biotechnology Informatioon (NCBI) houses online a genetic bank of DNA sequences. NCBI's genBank accrues the gentic sequencing of SARS-CoV-2 as they are submitted.
-These records include sequences as well as geolocation and a protein transcription.
-To compare the likenesses of two genetic strains, NCBI also provides BLAST, or Basic Local Alignment Search Tool.
-Using BLAST provides .csv data tables, each sequence having a percentage "aligned" with the reference strand.    
+i. What data have you gathered, and how did you gather it?
 
-ii How have you explored the data and what insights have you gained as a result?
-Some portions of recorded genomes are missing. These incomplete strands rate much higher in dissimilarity than complete genomes. 
-Complete strands are rarely more than 2% different from the reference strand, while incomplete strands have be rated over 20% different. 
-For this reason, our clusters will only include complete genomes.
+The National Center for Biotechnology Informatioon (NCBI) houses online a genetic bank of DNA sequences. NCBI's genBank accrues the gentic sequencing of SARS-CoV-2 as they are submitted. These records include sequences as well as geolocation and a protein transcription. To compare the likenesses of two genetic strains, NCBI also provides BLAST, or Basic Local Alignment Search Tool. Using BLAST provides .csv data tables, each sequence having a percentage "aligned" with the reference strand.    
 
-iii Will you be able to answer your question with this data, or do you need to gather more data (or adjust your question)?
-There is a constantly growing amount of genBank sequence data. BLAST data, calculated from the previous data set is likewise increasing. 
-These two data sets will be combined into one dataframe using Pandas functionality. 
-A version control system might be a useful implementaion, given the increasing data set.
-The focus of our question has been slightly altered as the decrease in mutations after removing incomplete strands was unexpected.
-This does give us a chance to better inspect any mutations that have occured.
+ii. How have you explored the data and what insights have you gained as a result?
 
-iv What modeling approach are you using to answer your question?
-Cluster analysis will be completed in two ways, using Python packages Scikit Learn and Biopython. 
-First, using Scikit Learn k-means clusters will be calculated on the alignment percentage of genomes.
-This will indicate groups of similarity & dissimilarity from the original genome.
-Following this, Biopython's Biocluster module will be used specifially on the genomes that bare dissimilarity from the origin.
-Sequences will be converted into matrixes using their ASCII counterparts and then sorted.
-Having two findings can help verify groupings as well as point out unviewed differences.
+Some portions of recorded genomes are missing. These incomplete strands rate much higher in dissimilarity than complete genomes. Complete strands are rarely more than 2% different from the reference strand, while incomplete strands have be rated over 20% different. For this reason, our clusters will only include complete genomes.
+
+iii. Will you be able to answer your question with this data, or do you need to gather more data (or adjust your question)?
+
+There is a constantly growing amount of genBank sequence data. BLAST data, calculated from the previous data set is likewise increasing. These two data sets will be combined into one dataframe using Pandas functionality. A version control system might be a useful implementaion, given the increasing data set. The focus of our question has been slightly altered as the decrease in mutations after removing incomplete strands was unexpected. This does give us a chance to better inspect any mutations that have occured.
+
+iv. What modeling approach are you using to answer your question?
+
+Cluster analysis will be completed in two ways, using Python packages Scikit Learn and Biopython. First, using Scikit Learn k-means clusters will be calculated on the alignment percentage of genomes. This will indicate groups of similarity & dissimilarity from the original genome. Following this, Biopython's Biocluster module will be used specifially on the genomes that bare dissimilarity from the origin. Sequences will be converted into matrixes using their ASCII counterparts and then sorted. Having two findings can help verify groupings as well as point out unviewed differences.
