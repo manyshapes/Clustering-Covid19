@@ -1,6 +1,5 @@
 i What data have you gathered, and how did you gather it?
-The National Center for Biotechnology Informatioon (NCBI) houses online a genetic bank of DNA sequences. 
-NCBI's genBank accrues the gentic sequencing of SARS-CoV-2 as they are submitted.
+The National Center for Biotechnology Informatioon (NCBI) houses online a genetic bank of DNA sequences. NCBI's genBank accrues the gentic sequencing of SARS-CoV-2 as they are submitted.
 These records include sequences as well as geolocation and a protein transcription.
 To compare the likenesses of two genetic strains, NCBI also provides BLAST, or Basic Local Alignment Search Tool.
 Using BLAST provides .csv data tables, each sequence having a percentage "aligned" with the reference strand.    
