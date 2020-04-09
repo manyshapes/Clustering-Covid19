@@ -28,3 +28,5 @@ This will indicate groups of similarity & dissimilarity from the original genome
 Following this, Biopython's Biocluster module will be used specifially on the genomes that bare dissimilarity from the origin. 
 Sequences will be converted into matrixes using their ASCII counterparts and then sorted. 
 Having two findings can help verify groupings as well as point out unviewed differences.
+
+Packages used: Pandas, Numpy, Scikit Learn, Biopython
