@@ -1,7 +1,5 @@
 # Covid-19-Mutations-Analysis
-Metis Intro to Data Science Project
-
-
+Clustering Covid-19 by Genetic Variations
 
 i. Selecting this Topic
 Initially recognized in 2019 as causing a Severe Acute Respiratory Syndrome (SARS), the SARS Corona Virus 2, or CoVid-19, has reached pandemic levels of infection. This disease has reached all continents aside from Antartica. Since its discovery, the genetics of this virus have undergone mutations. 
